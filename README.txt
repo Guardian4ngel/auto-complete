@@ -1,5 +1,6 @@
-Word Jolt: A fast dictionary and word-completion web application
+Word Jolt: A multi-lingual  dictionary and word completion web application.
 
+Motivation: Popular dictionary websites such as Dictionary.com and merriam-webster.com are bogged down with all sorts of junk that make using them slow and unappealing. The goal of Word-Jolt is to create a lightweight, focused online dictionary. 
 
 Development Roadmap
 
