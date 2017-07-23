@@ -1,5 +1,5 @@
-# Word Jolt
-### A Multi-Lingual Dictionary and Word-Completion Web-App 
+# Word Jolt 
+### A Multilingual Dictionary and Word Completion Website
 
 ## Motivation
 
