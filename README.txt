@@ -1,14 +1,11 @@
-Word Jolt
-
-A web application designed with the intention of allowing users to make fast English dictionary queries by utilizing tries.
+Word Jolt: A fast dictionary and word-completion web application
 
 
 Development Roadmap
 
-1. Build Core Application:
-	- Capable of generating 
-2. Build Django website 
+1. Build Prototype Application:
+2. Build Django Website Prototype
 3. Host Django Website
-4. Add support for defintions
-5. Add support for different languages
-6. Android App
+4. Add Support For Definitions In Application
+5. Add Support For Different Languages
+6. Android App?
