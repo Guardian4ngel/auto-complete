@@ -1,15 +1,7 @@
 # Word Jolt 
-### A Multilingual Dictionary Website
+### A Multilingual Word Completer
 
-## Motivation
+Word Jolt is a lightweight word completion program, as seen on mobile phone keyboards. For those unfamiliar with auto-completion, this means that Word Jolt will take in any series of characters in the selected language, and return a list of all possible words that have the submitted word as a prefix. Currently, Word Jolt supports: English, French, German and Spanish
 
-Popular dictionary websites such as dictionary.com and merriam-webster.com are bogged down with all sorts of junk that make using them slow and unappealing. Word Jolt is designed to be a fast and light-weight web application that is devoid of all sorts of slow loading advertisements and garbage news links.
-
-## Development Roadmap
-
-1. Build Prototype Application:
-2. Build Django Website Prototype
-3. Host Django Website
-4. Add Support For Definitions In Application
-5. Add Support For Different Languages
-6. Android App?
+### Implementation Details
+Word Jolt utilizes tries (https://en.wikipedia.org/wiki/Trie) to perform individual word lookups in O(k) time, where k is the length of the word. This is VERY fast. Because Word Jolt performs suffix look ups from the last character of the user submitted prefix (the root of the word) as opposed to the root of the trie, generating a list of suffixes can be done in O(n * s) time, where n is the amount of suffixes the word has, and s is the length of said suffixes, as opposed to O(n * k), where k is the length of the concatenated prefix and suffix.
