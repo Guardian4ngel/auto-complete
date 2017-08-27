@@ -22,7 +22,7 @@ def main():
 	print("Type in any word to generate a list of words that have a matching suffix.")
 	print("Type \"quit!\" to quit the program.")
 	while(True):
-		word_input = input("Enter a word: ")
+		word_input = input(">>> ")
 		if word_input == "quit!":
 			sys.exit()
 		for word in t.same_prefix(word_input):
